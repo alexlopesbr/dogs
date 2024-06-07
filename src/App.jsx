@@ -5,6 +5,8 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Login from './Components/Login/Login';
 
+import './App.css';
+
 const App = () => {
   return (
     <div>
