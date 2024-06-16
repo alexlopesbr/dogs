@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import Dogs from '../Assets/dogs.svg?react';
-
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
+import Dogs from '../Assets/dogs.svg?react';
 
 const Header = () => {
   return (
@@ -13,7 +11,7 @@ const Header = () => {
           <Dogs />
         </Link>
         <Link className={styles.login} to="/login">
-          Login
+          Login / Criar
         </Link>
       </nav>
     </header>
